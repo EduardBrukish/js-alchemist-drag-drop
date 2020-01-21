@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Котёл алхимика</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Пример вёрстки котла для экспериментов-->
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <!-- Поле для фильтрации алхимических элементов -->
+                    <input class="filter" type="text" placeholder="find element">
+                    <input class="delete" type="button" value="X">
+                </th>
+                <th>
+                    <!-- Результат смешивания в котле – новый элемент -->
+                    <span class="result"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!-- Список доступных элементов (два мы уже положили в котёл)-->
+                    <h2>Элементы</h2>
+                    <ul class="elements">
+                        <li data-element="earth">земля</li>
+                        <li data-element="air">воздух</li>
+                        <li data-element="dust">пыль</li>
+                        <li data-element="swamp">болото</li>
+                        <li data-element="energy">энергия</li>
+                        <li data-element="stone">камень</li>
+                        <li data-element="life">жизнь</li>
+                        <li data-element="milk">молоко</li>
+                        <li data-element="sourcream">сметанка</li>
+                        <li data-element="fire">огонь</li>
+                        <li data-element="water">вода</li>
+                    </ul>
+                </td>
+                <td>
+                    <!-- Элементы в котле для смешивания -->
+                    <h2>Котёл</h2>
+                    <ul class="boiler">
+
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="formulas.js"></script>
+    <script src="cauldron.js"></script>
+</body>
+
+</html>

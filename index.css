@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.boiler {
+    min-height: 100px;
+    min-width: 100px;
+    margin: 1.5em;
+    padding: 1.5em;
+    font-size: 1.2em;
+    border: 2px solid rgb(183, 0, 255);
+    border-radius: 0 0 30% 30%;
+}
+
+.elements {
+    margin: 1.5em;
+    padding: 1.5em;
+    font-size: 1.2em;
+    border: 2px solid green;
+    border-radius: 1em;
+}
+
+.result {
+    font-size: 1.5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.filter {
+    position: relative;
+    width: 180px;
+}
+
+.delete {
+    position: absolute;
+    left: 194px;
+    width: 21px;
+    height: 21px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: red;
+    color: #fff;
+}
